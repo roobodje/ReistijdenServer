@@ -3,7 +3,7 @@ import AdmZip from 'adm-zip';
 import fs from 'fs/promises';
 import path from 'path';
 
-const GTFS_URL = 'http://gtfs.openov.nl/gtfs-nl.zip';
+const GTFS_URL = 'http://gtfs.openov.nl/gtfs-rt/NL-OPENOV-20250714-gtfs.zip';
 const GTFS_DIR = './gtfs-data';
 
 export async function downloadAndExtractGtfs() {
